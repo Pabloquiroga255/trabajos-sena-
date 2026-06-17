@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entrenamiento Personal</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        background: linear-gradient(135deg, #0f172a, #1e293b);
+        color:white;
+    }
+
+    header{
+        text-align:center;
+        padding:50px 20px;
+        background: linear-gradient(90deg, #ff6b00, #ffb703);
+    }
+
+    header h1{
+        font-size:3rem;
+        margin-bottom:10px;
+    }
+
+    header p{
+        font-size:1.2rem;
+    }
+
+    .container{
+        max-width:1200px;
+        margin:auto;
+        padding:40px 20px;
+    }
+
+    .cards{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:25px;
+    }
+
+    .card{
+        background:#1e293b;
+        border-radius:15px;
+        padding:25px;
+        text-align:center;
+        transition:0.3s;
+        box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .card:hover{
+        transform:translateY(-10px);
+        background:#334155;
+    }
+
+    .icon{
+        font-size:60px;
+        margin-bottom:15px;
+    }
+
+    .card h3{
+        color:#ffb703;
+        margin-bottom:10px;
+    }
+
+    .beneficios{
+        margin-top:50px;
+        display:flex;
+        flex-wrap:wrap;
+        gap:20px;
+        justify-content:center;
+    }
+
+    .beneficio{
+        background:#ff6b00;
+        padding:15px 25px;
+        border-radius:30px;
+        font-weight:bold;
+    }
+
+    footer{
+        text-align:center;
+        padding:25px;
+        background:#0f172a;
+        margin-top:40px;
+    }
+
+    .hero-image{
+        text-align:center;
+        font-size:120px;
+        margin:30px 0;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>💪 Entrenamiento Personal</h1>
+    <p>Transforma tu cuerpo y mejora tu salud con un plan profesional.</p>
+</header>
+
+<div class="container">
+
+    <div class="hero-image">
+        🏋️
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🏃</div>
+            <h3>Cardio</h3>
+            <p>Mejora tu resistencia, quema calorías y fortalece tu corazón.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🏋️‍♂️</div>
+            <h3>Fuerza</h3>
+            <p>Incrementa tu masa muscular y potencia física con ejercicios guiados.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🥗</div>
+            <h3>Nutrición</h3>
+            <p>Planes alimenticios adaptados a tus objetivos y estilo de vida.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📈</div>
+            <h3>Seguimiento</h3>
+            <p>Control constante de tus avances para maximizar resultados.</p>
+        </div>
+
+    </div>
+
+    <div class="beneficios">
+        <div class="beneficio">🔥 Quema grasa</div>
+        <div class="beneficio">💪 Gana músculo</div>
+        <div class="beneficio">⚡ Más energía</div>
+        <div class="beneficio">❤️ Mejor salud</div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Entrenamiento Personal Gym | Tu mejor versión comienza hoy.</p>
+</footer>
+
+</body>
+</html>
